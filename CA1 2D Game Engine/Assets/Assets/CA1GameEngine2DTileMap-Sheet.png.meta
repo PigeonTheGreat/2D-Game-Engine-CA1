@@ -1,0 +1,520 @@
+fileFormatVersion: 2
+guid: 9056c3aa5156d294fab9909f04ff908a
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1373797277969357832
+    second: CA1GameEngine2DTileMap-Sheet_0
+  - first:
+      213: -2893805289983487735
+    second: CA1GameEngine2DTileMap-Sheet_1
+  - first:
+      213: 5276112968645383616
+    second: CA1GameEngine2DTileMap-Sheet_2
+  - first:
+      213: -4875951020114658602
+    second: CA1GameEngine2DTileMap-Sheet_3
+  - first:
+      213: 1674018166379424132
+    second: CA1GameEngine2DTileMap-Sheet_4
+  - first:
+      213: 7885817295792377096
+    second: CA1GameEngine2DTileMap-Sheet_5
+  - first:
+      213: 9076299536810502395
+    second: CA1GameEngine2DTileMap-Sheet_6
+  - first:
+      213: 5464445305064264818
+    second: CA1GameEngine2DTileMap-Sheet_7
+  - first:
+      213: 4697173112582738674
+    second: CA1GameEngine2DTileMap-Sheet_8
+  - first:
+      213: -6839198997317934247
+    second: CA1GameEngine2DTileMap-Sheet_9
+  - first:
+      213: 6272410378641846668
+    second: CA1GameEngine2DTileMap-Sheet_10
+  - first:
+      213: 2825559768094799556
+    second: CA1GameEngine2DTileMap-Sheet_11
+  - first:
+      213: 1705332511005827551
+    second: CA1GameEngine2DTileMap-Sheet_12
+  - first:
+      213: -5357890812460783247
+    second: CA1GameEngine2DTileMap-Sheet_13
+  - first:
+      213: -8469572560731267383
+    second: CA1GameEngine2DTileMap-Sheet_14
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 10
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: CA1GameEngine2DTileMap-Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 352
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f3ec3587aa4fece0800000000000000
+      internalID: -1373797277969357832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CA1GameEngine2DTileMap-Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 352
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9015369bb6327d7d0800000000000000
+      internalID: -2893805289983487735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CA1GameEngine2DTileMap-Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 352
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c590fa7ac4883940800000000000000
+      internalID: 5276112968645383616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CA1GameEngine2DTileMap-Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 352
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6dabcdf8164255cb0800000000000000
+      internalID: -4875951020114658602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CA1GameEngine2DTileMap-Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 352
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 489a89a27ae4b3710800000000000000
+      internalID: 1674018166379424132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CA1GameEngine2DTileMap-Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 352
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80d0657bc0d007d60800000000000000
+      internalID: 7885817295792377096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CA1GameEngine2DTileMap-Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 352
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf8e1a6275e75fd70800000000000000
+      internalID: 9076299536810502395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CA1GameEngine2DTileMap-Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 352
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27418e69d0c95db40800000000000000
+      internalID: 5464445305064264818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CA1GameEngine2DTileMap-Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 352
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f292082f06bf2140800000000000000
+      internalID: 4697173112582738674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CA1GameEngine2DTileMap-Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 352
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95328a06fb84611a0800000000000000
+      internalID: -6839198997317934247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CA1GameEngine2DTileMap-Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 352
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c81bb68b1041c0750800000000000000
+      internalID: 6272410378641846668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CA1GameEngine2DTileMap-Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 304
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c6fcec73a7663720800000000000000
+      internalID: 2825559768094799556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CA1GameEngine2DTileMap-Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 304
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd16d6e22ee8aa710800000000000000
+      internalID: 1705332511005827551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CA1GameEngine2DTileMap-Sheet_13
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 305
+        width: 27
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17922f181b2f4a5b0800000000000000
+      internalID: -5357890812460783247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CA1GameEngine2DTileMap-Sheet_14
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 304
+        width: 29
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ce973631a8067a80800000000000000
+      internalID: -8469572560731267383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: efcffda6202526445b393849dc9fcf5a
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      CA1GameEngine2DTileMap-Sheet_0: -1373797277969357832
+      CA1GameEngine2DTileMap-Sheet_1: -2893805289983487735
+      CA1GameEngine2DTileMap-Sheet_10: 6272410378641846668
+      CA1GameEngine2DTileMap-Sheet_11: 2825559768094799556
+      CA1GameEngine2DTileMap-Sheet_12: 1705332511005827551
+      CA1GameEngine2DTileMap-Sheet_13: -5357890812460783247
+      CA1GameEngine2DTileMap-Sheet_14: -8469572560731267383
+      CA1GameEngine2DTileMap-Sheet_2: 5276112968645383616
+      CA1GameEngine2DTileMap-Sheet_3: -4875951020114658602
+      CA1GameEngine2DTileMap-Sheet_4: 1674018166379424132
+      CA1GameEngine2DTileMap-Sheet_5: 7885817295792377096
+      CA1GameEngine2DTileMap-Sheet_6: 9076299536810502395
+      CA1GameEngine2DTileMap-Sheet_7: 5464445305064264818
+      CA1GameEngine2DTileMap-Sheet_8: 4697173112582738674
+      CA1GameEngine2DTileMap-Sheet_9: -6839198997317934247
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
