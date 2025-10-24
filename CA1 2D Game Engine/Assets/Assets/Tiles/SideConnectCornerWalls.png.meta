@@ -1,16 +1,13 @@
 fileFormatVersion: 2
-guid: dfb22bc4f31f73047917db19bfff6199
+guid: a852c5566717d2247adac68ba82fb5fa
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -271126113229949855
-    second: improved-Sheet_0
+      213: 2139674482250059014
+    second: SideConnectCornerWalls_0
   - first:
-      213: -7182083637057076636
-    second: improved-Sheet_1
-  - first:
-      213: -8213657012185440729
-    second: improved-Sheet_2
+      213: -8222041704152037094
+    second: SideConnectCornerWalls_1
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -119,7 +116,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: improved-Sheet_0
+      name: SideConnectCornerWalls_0
       rect:
         serializedVersion: 2
         x: 0
@@ -132,23 +129,23 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape:
-      - - {x: -16, y: -16}
-        - {x: 16, y: -16}
-        - {x: 16, y: -8}
+      - - {x: -7, y: -8}
         - {x: -16, y: -8}
+        - {x: -16, y: -16}
+        - {x: -7, y: -16}
       tessellationDetail: 0
       bones: []
-      spriteID: 164b89b8c34cc3cf0800000000000000
-      internalID: -271126113229949855
+      spriteID: 60d8b79ea96a1bd10800000000000000
+      internalID: 2139674482250059014
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: improved-Sheet_1
+      name: SideConnectCornerWalls_1
       rect:
         serializedVersion: 2
-        x: 35
+        x: 37
         y: 0
         width: 32
         height: 32
@@ -158,40 +155,15 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape:
-      - - {x: -16, y: -16}
+      - - {x: 16, y: -8}
+        - {x: 7, y: -8}
+        - {x: 7, y: -16}
+        - {x: 7.104252, y: -16}
         - {x: 16, y: -16}
-        - {x: 16, y: -8}
-        - {x: -16, y: -8}
       tessellationDetail: 0
       bones: []
-      spriteID: 46241120cfc145c90800000000000000
-      internalID: -7182083637057076636
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: improved-Sheet_2
-      rect:
-        serializedVersion: 2
-        x: 70
-        y: 0
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape:
-      - - {x: -16, y: -16}
-        - {x: 16, y: -16}
-        - {x: 16, y: -8}
-        - {x: -16, y: -8}
-      tessellationDetail: 0
-      bones: []
-      spriteID: 72e5ac9177a330e80800000000000000
-      internalID: -8213657012185440729
+      spriteID: a19029fd1a075ed80800000000000000
+      internalID: -8222041704152037094
       vertices: []
       indices: 
       edges: []
@@ -200,7 +172,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 6a655f7a5e76e584a827b8074aa23b1e
+    spriteID: c5bfa2b65ad32124eb3586d589d138cb
     internalID: 0
     vertices: []
     indices: 
@@ -210,9 +182,8 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      improved-Sheet_0: -271126113229949855
-      improved-Sheet_1: -7182083637057076636
-      improved-Sheet_2: -8213657012185440729
+      SideConnectCornerWalls_0: 2139674482250059014
+      SideConnectCornerWalls_1: -8222041704152037094
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
