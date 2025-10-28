@@ -1,7 +1,7 @@
-using UnityEngine;
+
 using System.Collections.Generic;
 using System.Collections;
-
+using UnityEngine;
 public class Player : MonoBehaviour
 {
 
@@ -12,6 +12,7 @@ public class Player : MonoBehaviour
     private Rigidbody2D rb; //Assigning a rigidbody2d  variable.
     //[SerializeField] private UIManager ui; //To link the scrapCount to the counter in UI.
     private Vector2 startPosition;
+    public GameObject projectilePrefab;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -34,6 +35,17 @@ public class Player : MonoBehaviour
         position.y += Time.deltaTime * moveVertical * speed;
         transform.position = position;
         //updateAnimator(moveHorizontal, moveVertical);
+
+        //Projectiles.
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+
+            GameObject projectile = Instantiate(projectilePrefab, rb.position, Quaternion.identity);
+            Projectile pr = projectile.GetComponent<Projectile>();
+            pr.Launch(new Vector2(animator.GetInteger("Direction"), 0), 300);
+
+        }
+
     }
 
     //Calling a method to count the scraps collected.
