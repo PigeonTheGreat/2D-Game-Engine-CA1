@@ -1,0 +1,442 @@
+fileFormatVersion: 2
+guid: 2720a8961e98e3a4b8e6dcea61bc2876
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8452135192368015936
+    second: Creation-Sheet-Revamp_0
+  - first:
+      213: 6792129749284687079
+    second: Creation-Sheet-Revamp_1
+  - first:
+      213: 6349203652279183572
+    second: Creation-Sheet-Revamp_2
+  - first:
+      213: -8053139570795619785
+    second: Creation-Sheet-Revamp_3
+  - first:
+      213: -5807366038924891225
+    second: Creation-Sheet-Revamp_4
+  - first:
+      213: -5732417597313114989
+    second: Creation-Sheet-Revamp_5
+  - first:
+      213: 1394618036652289572
+    second: Creation-Sheet-Revamp_6
+  - first:
+      213: -5203384348685907163
+    second: Creation-Sheet-Revamp_7
+  - first:
+      213: -7114284138791368170
+    second: Creation-Sheet-Revamp_8
+  - first:
+      213: 2575149460859363895
+    second: Creation-Sheet-Revamp_9
+  - first:
+      213: -4461238262953341329
+    second: Creation-Sheet-Revamp_10
+  - first:
+      213: 4274100973308936655
+    second: Creation-Sheet-Revamp_11
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 30
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Creation-Sheet-Revamp_0
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 308
+        width: 217
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c59359e2dbf3ba80800000000000000
+      internalID: -8452135192368015936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Creation-Sheet-Revamp_1
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 308
+        width: 217
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ec0a7e450e724e50800000000000000
+      internalID: 6792129749284687079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Creation-Sheet-Revamp_2
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 308
+        width: 217
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d8a6bc0517ec1850800000000000000
+      internalID: 6349203652279183572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Creation-Sheet-Revamp_3
+      rect:
+        serializedVersion: 2
+        x: 723
+        y: 308
+        width: 217
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73ad51c4a308d3090800000000000000
+      internalID: -8053139570795619785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Creation-Sheet-Revamp_4
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 160
+        width: 217
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7abe6393b57186fa0800000000000000
+      internalID: -5807366038924891225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Creation-Sheet-Revamp_5
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 160
+        width: 217
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39c14ff119c5270b0800000000000000
+      internalID: -5732417597313114989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Creation-Sheet-Revamp_6
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 160
+        width: 217
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42e230027bdaa5310800000000000000
+      internalID: 1394618036652289572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Creation-Sheet-Revamp_7
+      rect:
+        serializedVersion: 2
+        x: 723
+        y: 160
+        width: 217
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52bcfbae08dd9c7b0800000000000000
+      internalID: -5203384348685907163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Creation-Sheet-Revamp_8
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 14
+        width: 217
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61a0524d44cf44d90800000000000000
+      internalID: -7114284138791368170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Creation-Sheet-Revamp_9
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 14
+        width: 217
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 732af0a7ac4ccb320800000000000000
+      internalID: 2575149460859363895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Creation-Sheet-Revamp_10
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 14
+        width: 217
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6e094ebf6f7612c0800000000000000
+      internalID: -4461238262953341329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Creation-Sheet-Revamp_11
+      rect:
+        serializedVersion: 2
+        x: 723
+        y: 14
+        width: 217
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc10b38a038a05b30800000000000000
+      internalID: 4274100973308936655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 53dbd406e94de2c4e8a2a9e97e1c9411
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Creation-Sheet-Revamp_0: -8452135192368015936
+      Creation-Sheet-Revamp_1: 6792129749284687079
+      Creation-Sheet-Revamp_10: -4461238262953341329
+      Creation-Sheet-Revamp_11: 4274100973308936655
+      Creation-Sheet-Revamp_2: 6349203652279183572
+      Creation-Sheet-Revamp_3: -8053139570795619785
+      Creation-Sheet-Revamp_4: -5807366038924891225
+      Creation-Sheet-Revamp_5: -5732417597313114989
+      Creation-Sheet-Revamp_6: 1394618036652289572
+      Creation-Sheet-Revamp_7: -5203384348685907163
+      Creation-Sheet-Revamp_8: -7114284138791368170
+      Creation-Sheet-Revamp_9: 2575149460859363895
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
