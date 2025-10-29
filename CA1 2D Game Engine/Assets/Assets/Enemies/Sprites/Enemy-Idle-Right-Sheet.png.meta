@@ -1,19 +1,19 @@
 fileFormatVersion: 2
-guid: 7919722354ffe684b98aa38772e86443
+guid: 5c8753ac8889494429be5d7028b92997
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 8540886793948406033
-    second: Enemy-Walk-Right-Sheet_0
+      213: 2375839561672431435
+    second: Enemy-Idle-Right-Sheet_0
   - first:
-      213: -4690015997236368582
-    second: Enemy-Walk-Right-Sheet_1
+      213: -6702384912831455989
+    second: Enemy-Idle-Right-Sheet_1
   - first:
-      213: 6696013688194026822
-    second: Enemy-Walk-Right-Sheet_2
+      213: -2402851990976145424
+    second: Enemy-Idle-Right-Sheet_2
   - first:
-      213: -7808178632742377078
-    second: Enemy-Walk-Right-Sheet_3
+      213: 5215366664321502439
+    second: Enemy-Idle-Right-Sheet_3
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -122,7 +122,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Enemy-Walk-Right-Sheet_0
+      name: Enemy-Idle-Right-Sheet_0
       rect:
         serializedVersion: 2
         x: 0
@@ -137,17 +137,17 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 111ae1c9943578670800000000000000
-      internalID: 8540886793948406033
+      spriteID: b471ecc5e7da8f020800000000000000
+      internalID: 2375839561672431435
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Enemy-Walk-Right-Sheet_1
+      name: Enemy-Idle-Right-Sheet_1
       rect:
         serializedVersion: 2
-        x: 63
+        x: 58
         y: 0
         width: 58
         height: 157
@@ -159,17 +159,17 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a3ba3dd9c47b9eeb0800000000000000
-      internalID: -4690015997236368582
+      spriteID: b0d5ebabe685cf2a0800000000000000
+      internalID: -6702384912831455989
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Enemy-Walk-Right-Sheet_2
+      name: Enemy-Idle-Right-Sheet_2
       rect:
         serializedVersion: 2
-        x: 126
+        x: 116
         y: 0
         width: 58
         height: 157
@@ -181,17 +181,17 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 64d45ffe8f40dec50800000000000000
-      internalID: 6696013688194026822
+      spriteID: 0f7d60658da57aed0800000000000000
+      internalID: -2402851990976145424
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Enemy-Walk-Right-Sheet_3
+      name: Enemy-Idle-Right-Sheet_3
       rect:
         serializedVersion: 2
-        x: 189
+        x: 174
         y: 0
         width: 58
         height: 157
@@ -203,8 +203,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a89689c27e6c3a390800000000000000
-      internalID: -7808178632742377078
+      spriteID: 7ec0c485954b06840800000000000000
+      internalID: 5215366664321502439
       vertices: []
       indices: 
       edges: []
@@ -213,7 +213,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: a5cdbd07fbc17324d9a64ce9cb25579d
+    spriteID: 2d09dff23d171b9429de7d1438515e30
     internalID: 0
     vertices: []
     indices: 
@@ -223,10 +223,10 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Enemy-Walk-Right-Sheet_0: 8540886793948406033
-      Enemy-Walk-Right-Sheet_1: -4690015997236368582
-      Enemy-Walk-Right-Sheet_2: 6696013688194026822
-      Enemy-Walk-Right-Sheet_3: -7808178632742377078
+      Enemy-Idle-Right-Sheet_0: 2375839561672431435
+      Enemy-Idle-Right-Sheet_1: -6702384912831455989
+      Enemy-Idle-Right-Sheet_2: -2402851990976145424
+      Enemy-Idle-Right-Sheet_3: 5215366664321502439
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
