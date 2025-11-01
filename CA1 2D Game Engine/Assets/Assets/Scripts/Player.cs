@@ -13,12 +13,10 @@ public class Player : MonoBehaviour
     public GameObject projectilePrefab;
     private int scrapCount = 15;
     [SerializeField] private UIManager ui;
-    private bool isSpeedBoost = false;
-    //private bool isHealthBoost = false;
-    //private bool isBulletSpeedBoost = false;
-    //private bool isStrengthBoost = false;
+    private bool isPowerUp = false;
     private float PowerUpTimeRemaining = 5;
     private float DefaultPowerUpTime = 5;
+    int lives = 5;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -51,14 +49,14 @@ public class Player : MonoBehaviour
             pr.Launch(new Vector2(animator.GetInteger("DirectionX"), 0), 300);
         }
 
-        if (isSpeedBoost)
+        if (isPowerUp)
         {
 
             PowerUpTimeRemaining -= Time.deltaTime;
             if (PowerUpTimeRemaining < 0)
             {
 
-                isSpeedBoost = false;
+                isPowerUp = false;
                 PowerUpTimeRemaining = DefaultPowerUpTime;
                 animator.speed /= 2;
                 speed /= 2;
@@ -71,13 +69,27 @@ public class Player : MonoBehaviour
 
     public void OnTriggerEnter2D(Collider2D collision)
     {
-        if(!isSpeedBoost && collision.gameObject.tag == "Speed_Boost")
+        if(!isPowerUp && collision.gameObject.tag == "Speed_Boost")
         {
             Destroy(collision.gameObject);
             speed *= 2;
-            isSpeedBoost=true;
+            isPowerUp=true;
             animator.speed *= 2;
         }
+
+        if (!isPowerUp && collision.gameObject.tag == "Health_Boost")
+        {
+            Destroy(collision.gameObject);
+
+        }
+
+        if(collision.gameObject.name.Contains("EnemyProjectile"))
+        {
+            lives--;
+            Debug.Log(lives);
+            //ui.UpdateLives(lives);
+        }
+
     }
 
 
