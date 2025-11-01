@@ -8,11 +8,17 @@ public class Player : MonoBehaviour
     //Declaring Variables
     public float speed; //To assign the speed of the player.
     private Animator animator; //To assign animations to the player as they move.
-    //private int scrapCount = 0; //To count the scrap the player picks up.
     private Rigidbody2D rb; //Assigning a rigidbody2d  variable.
-    //[SerializeField] private UIManager ui; //To link the scrapCount to the counter in UI.
     private Vector2 startPosition;
     public GameObject projectilePrefab;
+    private int scrapCount = 15;
+    [SerializeField] private UIManager ui;
+    private bool isSpeedBoost = false;
+    //private bool isHealthBoost = false;
+    //private bool isBulletSpeedBoost = false;
+    //private bool isStrengthBoost = false;
+    private float PowerUpTimeRemaining = 5;
+    private float DefaultPowerUpTime = 5;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -34,7 +40,7 @@ public class Player : MonoBehaviour
 
         position.y += Time.deltaTime * moveVertical * speed;
         transform.position = position;
-        //updateAnimator(moveHorizontal, moveVertical);
+        updateAnimator(moveHorizontal, moveVertical);
 
         //Projectiles.
         if (Input.GetKeyDown(KeyCode.Space))
@@ -42,16 +48,67 @@ public class Player : MonoBehaviour
 
             GameObject projectile = Instantiate(projectilePrefab, rb.position, Quaternion.identity);
             Projectile pr = projectile.GetComponent<Projectile>();
-            pr.Launch(new Vector2(animator.GetInteger("Direction"), 0), 300);
+            pr.Launch(new Vector2(animator.GetInteger("DirectionX"), 0), 300);
+        }
+
+        if (isSpeedBoost)
+        {
+
+            PowerUpTimeRemaining -= Time.deltaTime;
+            if (PowerUpTimeRemaining < 0)
+            {
+
+                isSpeedBoost = false;
+                PowerUpTimeRemaining = DefaultPowerUpTime;
+                animator.speed /= 2;
+                speed /= 2;
+
+            }
 
         }
 
     }
 
+    public void OnTriggerEnter2D(Collider2D collision)
+    {
+        if(!isSpeedBoost && collision.gameObject.tag == "Speed_Boost")
+        {
+            Destroy(collision.gameObject);
+            speed *= 2;
+            isSpeedBoost=true;
+            animator.speed *= 2;
+        }
+    }
+
+
+    //Creating a method to update the animator as the player moves.
+    private void updateAnimator(float moveX, float moveY)
+    {
+        animator.SetFloat("MoveX", moveX);
+        animator.SetFloat("MoveY", moveY);
+        if (moveX > 0)
+        {
+            animator.SetInteger("DirectionX", 1);
+        }
+        else if (moveY > 0)
+        {
+            animator.SetInteger("DirectionY", 1);
+        }
+        else if (moveX < 0)
+        {
+            animator.SetInteger("DirectionX", -1);
+        }
+        else if(moveY < 0)
+        {
+            animator.SetInteger("DirectionY", -1);
+        }
+
+    }
+
     //Calling a method to count the scraps collected.
-    //public void CollectScrap()
-    //{
-    //    scrapCount++;
-    //    ui.SetScore(scrapCount);
-    //}
+    public void CollectScrap()
+    {
+        scrapCount--; //Adding 1 every time a scrap is collected.
+        ui.setCount(scrapCount);
+    }
 }
