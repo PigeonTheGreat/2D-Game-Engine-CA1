@@ -5,6 +5,7 @@ TagManager:
   serializedVersion: 3
   tags:
   - Speed_Boost
+  - PlayerProjectile
   layers:
   - Default
   - TransparentFX
