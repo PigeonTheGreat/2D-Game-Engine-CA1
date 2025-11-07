@@ -5,17 +5,12 @@ using UnityEngine;
 public class Enemy : MonoBehaviour
 {
 
-    Animator _animator;
+    private Animator _animator;
     int directionX = 1;
     int directionY = 1;
-    float timeInDirection;
-    public float distanceTime;
-    public float speed;
     public int health;
     bool isDead = false;
     float dieTime = 2;
-    bool isIdle = false;
-    public float idleTime = 2;
     [SerializeField] float fireTimer = 0.5f;
     float fireCountdown = 0;
     [SerializeField] GameObject projectilePrefab;
@@ -24,7 +19,6 @@ public class Enemy : MonoBehaviour
     void Start()
     {
         _animator = GetComponent<Animator>();
-        timeInDirection = distanceTime;
     }
 
     // Update is called once per frame
@@ -106,6 +100,7 @@ public class Enemy : MonoBehaviour
             {
                 isDead = true;
                 _animator.SetBool("IsDead", true);
+                Destroy(this.gameObject);
             }
         }
     }

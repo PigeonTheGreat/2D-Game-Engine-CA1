@@ -12,9 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6a533b9f6a43c6e4284e05479e5a8c44, type: 3}
   m_Name: ManDialogue
   m_EditorClassIdentifier: Assembly-CSharp::Dialogue
-  npcName: 
-  npcPortrait: {fileID: 0}
-  dialogueLines: []
+  npcName: Man
+  npcPortrait: {fileID: 8797380174862591708, guid: 57ac683b796cff540a914cf1c67f2e62, type: 3}
+  dialogueLines:
+  - Hi!
+  - I'm wing gaster! The Royal scie- Wronge Gameth....
   typingSpeed: 0.05
-  autoprogressLines: 
+  autoprogressLines: 0100
   autoProgressDelay: 1.5
