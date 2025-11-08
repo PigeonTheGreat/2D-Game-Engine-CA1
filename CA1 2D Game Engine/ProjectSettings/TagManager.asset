@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Speed_Boost
   - PlayerProjectile
+  - Health_Boost
   layers:
   - Default
   - TransparentFX
@@ -13,7 +14,7 @@ TagManager:
   - Walls/Gloob
   - Water
   - UI
-  - 
+  - Player
   - 
   - 
   - 

@@ -100,7 +100,6 @@ public class Enemy : MonoBehaviour
             {
                 isDead = true;
                 _animator.SetBool("IsDead", true);
-                Destroy(this.gameObject);
             }
         }
     }

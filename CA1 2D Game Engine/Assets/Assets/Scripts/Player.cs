@@ -2,6 +2,9 @@
 using System.Collections.Generic;
 using System.Collections;
 using UnityEngine;
+using UnityEngine.UI;
+
+
 public class Player : MonoBehaviour
 {
 
@@ -12,7 +15,7 @@ public class Player : MonoBehaviour
     private Vector2 startPosition;
     public GameObject projectilePrefab;
     private int scrapCount = 15;
-    [SerializeField] private UIManager ui;
+    [SerializeField] public UIManager ui;
     private bool isPowerUp = false;
     private float PowerUpTimeRemaining = 5;
     private float DefaultPowerUpTime = 5;
@@ -90,7 +93,7 @@ public class Player : MonoBehaviour
         {
             lives--;
             Debug.Log(lives);
-            // ui.UpdateLives(lives);
+            ui.UpdateLives(lives);
         }
 
     }

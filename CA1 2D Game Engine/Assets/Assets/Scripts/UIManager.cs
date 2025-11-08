@@ -15,7 +15,7 @@ public class UIManager : MonoBehaviour
 
     }
 
-    void UpdateLives(int lives)
+    public void UpdateLives(int lives)
     {
         if (lives == 5)
         {
