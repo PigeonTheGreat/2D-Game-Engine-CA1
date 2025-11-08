@@ -43,7 +43,6 @@ public class Player : MonoBehaviour
         //Projectiles.
         if (Input.GetKeyDown(KeyCode.Space))
         {
-
             GameObject projectile = Instantiate(projectilePrefab, rb.position, Quaternion.identity);
             Projectile pr = projectile.GetComponent<Projectile>();
             pr.Launch(new Vector2(animator.GetInteger("DirectionX"), 0), 300);
@@ -80,14 +79,18 @@ public class Player : MonoBehaviour
         if (!isPowerUp && collision.gameObject.tag == "Health_Boost")
         {
             Destroy(collision.gameObject);
-
+            if (lives < 5)
+            {
+                lives = 5;
+            }
+            Debug.Log(lives);
         }
 
         if(collision.gameObject.name.Contains("EnemyProjectile"))
         {
             lives--;
             Debug.Log(lives);
-            //ui.UpdateLives(lives);
+            // ui.UpdateLives(lives);
         }
 
     }
