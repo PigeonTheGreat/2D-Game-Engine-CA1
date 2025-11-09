@@ -1,0 +1,754 @@
+fileFormatVersion: 2
+guid: 53d721a4a3778674aabde6d3aa1440a0
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5768518235410319918
+    second: scientist-dead-right-Sheet_0
+  - first:
+      213: -1594761334590907396
+    second: scientist-dead-right-Sheet_1
+  - first:
+      213: -5438063699011656034
+    second: scientist-dead-right-Sheet_2
+  - first:
+      213: -4106136744427238034
+    second: scientist-dead-right-Sheet_3
+  - first:
+      213: -3870081874701177439
+    second: scientist-dead-right-Sheet_4
+  - first:
+      213: -3931890631059453298
+    second: scientist-dead-right-Sheet_5
+  - first:
+      213: 3382001335442383874
+    second: scientist-dead-right-Sheet_6
+  - first:
+      213: -4798320002982018069
+    second: scientist-dead-right-Sheet_7
+  - first:
+      213: 6147624632530447037
+    second: scientist-dead-right-Sheet_8
+  - first:
+      213: 4205638292152293940
+    second: scientist-dead-right-Sheet_9
+  - first:
+      213: 6572885607060688910
+    second: scientist-dead-right-Sheet_10
+  - first:
+      213: 8309259904251085934
+    second: scientist-dead-right-Sheet_11
+  - first:
+      213: -3470231700670064491
+    second: scientist-dead-right-Sheet_12
+  - first:
+      213: 2854490946756567369
+    second: scientist-dead-right-Sheet_13
+  - first:
+      213: 4993605893689740121
+    second: scientist-dead-right-Sheet_14
+  - first:
+      213: -7185979721476583938
+    second: scientist-dead-right-Sheet_15
+  - first:
+      213: -2531515174467872616
+    second: scientist-dead-right-Sheet_16
+  - first:
+      213: 2128872298705630360
+    second: scientist-dead-right-Sheet_17
+  - first:
+      213: 2679794264740016525
+    second: scientist-dead-right-Sheet_18
+  - first:
+      213: -8047863275559594380
+    second: scientist-dead-right-Sheet_19
+  - first:
+      213: -1694050891202138834
+    second: scientist-dead-right-Sheet_20
+  - first:
+      213: -5204684964498674061
+    second: scientist-dead-right-Sheet_21
+  - first:
+      213: -1452626366267566650
+    second: scientist-dead-right-Sheet_22
+  - first:
+      213: 7940534838489046556
+    second: scientist-dead-right-Sheet_23
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: scientist-dead-right-Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 0
+        width: 49
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2acefda5c4ed0050800000000000000
+      internalID: 5768518235410319918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scientist-dead-right-Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 0
+        width: 49
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfb5e2ef3054ed9e0800000000000000
+      internalID: -1594761334590907396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scientist-dead-right-Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 0
+        width: 49
+        height: 151
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e96a67ab0ed1884b0800000000000000
+      internalID: -5438063699011656034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scientist-dead-right-Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 0
+        width: 49
+        height: 145
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6d4c3dd2621407c0800000000000000
+      internalID: -4106136744427238034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scientist-dead-right-Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 120
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ad22ce1a05ba4ac0800000000000000
+      internalID: -3870081874701177439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scientist-dead-right-Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 120
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8ac3089d4e1f69c0800000000000000
+      internalID: -3931890631059453298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scientist-dead-right-Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 129
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 204a0f4cb484fee20800000000000000
+      internalID: 3382001335442383874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scientist-dead-right-Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 120
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be30b9f3161f86db0800000000000000
+      internalID: -4798320002982018069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scientist-dead-right-Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 129
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dba2b622800c05550800000000000000
+      internalID: 6147624632530447037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scientist-dead-right-Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 564
+        y: 120
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43a94898ebd6d5a30800000000000000
+      internalID: 4205638292152293940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scientist-dead-right-Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 583
+        y: 134
+        width: 19
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e00512e82a4973b50800000000000000
+      internalID: 6572885607060688910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scientist-dead-right-Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 606
+        y: 129
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e64484bcbdb605370800000000000000
+      internalID: 8309259904251085934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scientist-dead-right-Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 622
+        y: 120
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 598d24187a247dfc0800000000000000
+      internalID: -3470231700670064491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scientist-dead-right-Sheet_13
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 134
+        width: 19
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9416eff64603d9720800000000000000
+      internalID: 2854490946756567369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scientist-dead-right-Sheet_14
+      rect:
+        serializedVersion: 2
+        x: 664
+        y: 129
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95b8ca16a1adc4540800000000000000
+      internalID: 4993605893689740121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scientist-dead-right-Sheet_15
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 120
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: efd4a3a2485464c90800000000000000
+      internalID: -7185979721476583938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scientist-dead-right-Sheet_16
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 0
+        width: 51
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 898d4528c504edcd0800000000000000
+      internalID: -2531515174467872616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scientist-dead-right-Sheet_17
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 0
+        width: 51
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 894b48093164b8d10800000000000000
+      internalID: 2128872298705630360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scientist-dead-right-Sheet_18
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 0
+        width: 51
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8135f48faa803520800000000000000
+      internalID: 2679794264740016525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scientist-dead-right-Sheet_19
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 0
+        width: 51
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 476db538dfe305090800000000000000
+      internalID: -8047863275559594380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scientist-dead-right-Sheet_20
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 0
+        width: 51
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2d667e90b58d78e0800000000000000
+      internalID: -1694050891202138834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scientist-dead-right-Sheet_21
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 0
+        width: 51
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37e6d33b99e35c7b0800000000000000
+      internalID: -5204684964498674061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scientist-dead-right-Sheet_22
+      rect:
+        serializedVersion: 2
+        x: 581
+        y: 0
+        width: 51
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c55147240c37dbe0800000000000000
+      internalID: -1452626366267566650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: scientist-dead-right-Sheet_23
+      rect:
+        serializedVersion: 2
+        x: 639
+        y: 0
+        width: 51
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1ed0c66d52723e60800000000000000
+      internalID: 7940534838489046556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      scientist-dead-right-Sheet_0: 5768518235410319918
+      scientist-dead-right-Sheet_1: -1594761334590907396
+      scientist-dead-right-Sheet_10: 6572885607060688910
+      scientist-dead-right-Sheet_11: 8309259904251085934
+      scientist-dead-right-Sheet_12: -3470231700670064491
+      scientist-dead-right-Sheet_13: 2854490946756567369
+      scientist-dead-right-Sheet_14: 4993605893689740121
+      scientist-dead-right-Sheet_15: -7185979721476583938
+      scientist-dead-right-Sheet_16: -2531515174467872616
+      scientist-dead-right-Sheet_17: 2128872298705630360
+      scientist-dead-right-Sheet_18: 2679794264740016525
+      scientist-dead-right-Sheet_19: -8047863275559594380
+      scientist-dead-right-Sheet_2: -5438063699011656034
+      scientist-dead-right-Sheet_20: -1694050891202138834
+      scientist-dead-right-Sheet_21: -5204684964498674061
+      scientist-dead-right-Sheet_22: -1452626366267566650
+      scientist-dead-right-Sheet_23: 7940534838489046556
+      scientist-dead-right-Sheet_3: -4106136744427238034
+      scientist-dead-right-Sheet_4: -3870081874701177439
+      scientist-dead-right-Sheet_5: -3931890631059453298
+      scientist-dead-right-Sheet_6: 3382001335442383874
+      scientist-dead-right-Sheet_7: -4798320002982018069
+      scientist-dead-right-Sheet_8: 6147624632530447037
+      scientist-dead-right-Sheet_9: 4205638292152293940
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
