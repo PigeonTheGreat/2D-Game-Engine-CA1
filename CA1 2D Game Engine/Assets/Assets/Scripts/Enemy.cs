@@ -8,12 +8,17 @@ public class Enemy : MonoBehaviour
     private Animator _animator;
     int directionX = 1;
     int directionY = 1;
+    int idleTime;
     public int health;
     bool isDead = false;
+    bool isIdle;
     float dieTime = 2;
     [SerializeField] float fireTimer = 0.5f;
     float fireCountdown = 0;
     [SerializeField] GameObject projectilePrefab;
+    private AudioSource _audio;
+    public AudioClip deathSound;
+    public AudioClip hitSound;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -26,39 +31,6 @@ public class Enemy : MonoBehaviour
     {
         if(!isDead)
         {
-            //if(isIdle && idleTime <0)
-            //{
-            //    directionX = directionX * -1;
-            //    _animator.SetInteger("DirectionX", directionX);
-            //    directionY = directionY * -1;
-            //    _animator.SetInteger("DirectionY", directionY);
-            //    timeInDirection = distanceTime;
-            //    _animator.SetFloat("MoveX", 1);
-            //    _animator.SetFloat("MoveY", 1);
-            //    isIdle = false;
-            //}
-            //else if(!isIdle && timeInDirection < 0)
-            //{
-            //    idleTime = 2;
-            //    isIdle = true;
-            //    _animator.SetFloat("MoveX", 0);
-            //    _animator.SetFloat("MoveY", 0);
-            //}
-
-            //if (!isIdle)
-            //{
-            //    Vector2 pos = transform.position;
-            //    pos.x = pos.x + (speed * Time.deltaTime * directionX);
-            //    transform.position = pos;
-            //    pos.y = pos.y + (speed * Time.deltaTime * directionY);
-            //    transform.position = pos;
-            //    timeInDirection -= Time.deltaTime;
-            //}
-            //else 
-            //{
-            //    idleTime -= Time.deltaTime;
-            //}
-
             RaycastHit2D hitX = Physics2D.Raycast(transform.position, new Vector2(directionX, 0), 5f, LayerMask.GetMask("Player"));
             RaycastHit2D hitY = Physics2D.Raycast(transform.position, new Vector2(directionY, 0), 5f, LayerMask.GetMask("Player"));
             if (hitX.collider != null)
@@ -69,7 +41,7 @@ public class Enemy : MonoBehaviour
                 }
             }
 
-        if (hitY.collider != null)
+            if (hitY.collider != null)
             {
                 if (hitY.collider.GetComponent<Player>() != null)
                 {
@@ -93,13 +65,17 @@ public class Enemy : MonoBehaviour
     {
         if(collision.tag == "PlayerProjectile")
         {
+            _audio.PlayOneShot(hitSound);
             health--;
-            Debug.Log(health);
+            //Debug.Log(health);
+            
 
             if(health <= 0)
             {
+                _audio.PlayOneShot(deathSound);
                 isDead = true;
                 _animator.SetBool("IsDead", true);
+                
             }
         }
     }
@@ -113,8 +89,8 @@ public class Enemy : MonoBehaviour
             Projectile projectile = projectileObject.GetComponent<Projectile>();
             projectile.Launch(new Vector2(directionX, 0), 300);
             projectile.Launch(new Vector2(directionY, 0), 300);
-            Debug.Log(directionX); 
-            Debug.Log(directionY);
+            //Debug.Log(directionX); 
+            //Debug.Log(directionY);
         }
     }
 

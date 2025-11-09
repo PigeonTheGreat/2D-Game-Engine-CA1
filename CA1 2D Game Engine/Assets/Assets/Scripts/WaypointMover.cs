@@ -13,11 +13,17 @@ public class WaypointMover : MonoBehaviour
     private Transform[] waypoints;
     private int currentWaypointIndex;
     private bool isWaiting;
+    private Animator animator;
+    private int directionX;
+    private int directionY;
+    private bool isIdle;
+    private int idleTime = 2;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         waypoints = new Transform[waypointParent.childCount];
+        animator = GetComponent<Animator>();
 
         for(int i = 0; i < waypointParent.childCount; i++)
         {
@@ -28,15 +34,33 @@ public class WaypointMover : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (isIdle && idleTime < 0)
+        {
+            directionX = directionX * -1;
+            animator.SetInteger("DirectionX", directionX);
+            directionY = directionY * -1;
+            animator.SetInteger("DirectionY", directionY);
+            animator.SetFloat("MoveX", 1);
+            animator.SetFloat("MoveY", 1);
+            isIdle = false;
+        }
+        else if (!isIdle)
+        {
+            idleTime = 2;
+            isIdle = true;
+            animator.SetFloat("MoveX", 0);
+            animator.SetFloat("MoveY", 0);
+        }
+
         MoveToWaypoint();
     }
 
     void MoveToWaypoint()
     {
-        Transform target = waypoints[currentWaypointIndex];
+        Transform target = waypoints[currentWaypointIndex]; //Moving to each waypoint
         transform.position = Vector2.MoveTowards(transform.position, target.position, moveSpeed * Time.deltaTime);
 
-        if(Vector2.Distance(transform.position, target.position) < 0.1f)
+        if(Vector2.Distance(transform.position, target.position) < 0.1f) //if the npc is within the Waypoint
         {
             StartCoroutine(WaitAtWaypoint());
         }

@@ -9,4 +9,15 @@ public class MainMenu : MonoBehaviour
     {
         SceneManager.LoadSceneAsync(1);
     }
+
+    public void MainMenuScreen()
+    {
+        SceneManager.LoadSceneAsync(0);
+    }
+
+    public void GameOverScreen()
+    {
+        SceneManager.LoadSceneAsync(2);
+    }
+
 }

@@ -57,7 +57,7 @@ public class UIManager : MonoBehaviour
             images[3].enabled = false;
             images[4].enabled = true;
         }
-        else if (lives >= 0)
+        else if (lives < 0)
         {
             images[0].enabled = false;
             images[1].enabled = false;
@@ -66,6 +66,7 @@ public class UIManager : MonoBehaviour
             images[4].enabled = false;
         }
     }
+    
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
