@@ -12,7 +12,6 @@ public class WaypointMover : MonoBehaviour
 
     private Transform[] waypoints;
     private int currentWaypointIndex;
-    private bool isWaiting;
     private Animator animator;
     private int directionX;
     private int directionY;
@@ -69,14 +68,14 @@ public class WaypointMover : MonoBehaviour
 
     IEnumerator WaitAtWaypoint()
     {
-        isWaiting = true;
+        
         yield return new WaitForSeconds(waitTime);
 
         //If looping is enabled: increment currentWaypointndex and wrap around if needed.
         //If not looping: increment currentWaypointIndex but don't exceed last waypoint;
         currentWaypointIndex = loopWaypoints ? (currentWaypointIndex + 1) % waypoints.Length : Mathf.Min(currentWaypointIndex + 1, waypoints.Length - 1);
 
-        isWaiting = false;
+        
     }
 
 }

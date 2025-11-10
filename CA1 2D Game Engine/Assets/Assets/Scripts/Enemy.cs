@@ -16,7 +16,7 @@ public class Enemy : MonoBehaviour
     [SerializeField] float fireTimer = 0.5f;
     float fireCountdown = 0;
     [SerializeField] GameObject projectilePrefab;
-    private AudioSource _audio;
+    private AudioSource audio;
     public AudioClip deathSound;
     public AudioClip hitSound;
 
@@ -24,6 +24,7 @@ public class Enemy : MonoBehaviour
     void Start()
     {
         _animator = GetComponent<Animator>();
+        audio = GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
@@ -54,6 +55,7 @@ public class Enemy : MonoBehaviour
         else
         {
             dieTime -= Time.deltaTime;
+            audio.PlayOneShot(deathSound);
             if (dieTime < 0)
             {
                 Destroy(this.gameObject);
@@ -65,18 +67,15 @@ public class Enemy : MonoBehaviour
     {
         if(collision.tag == "PlayerProjectile")
         {
-            _audio.PlayOneShot(hitSound);
+            audio.PlayOneShot(hitSound);
             health--;
             //Debug.Log(health);
             
-
             if(health <= 0)
             {
-                _audio.PlayOneShot(deathSound);
                 isDead = true;
-                _animator.SetBool("IsDead", true);
-                
             }
+
         }
     }
 
@@ -88,7 +87,7 @@ public class Enemy : MonoBehaviour
             GameObject projectileObject = Instantiate(projectilePrefab, GetComponent<Rigidbody2D>().position, Quaternion.identity);
             Projectile projectile = projectileObject.GetComponent<Projectile>();
             projectile.Launch(new Vector2(directionX, 0), 300);
-            projectile.Launch(new Vector2(directionY, 0), 300);
+            //projectile.Launch(new Vector2(directionY, 0), 300);
             //Debug.Log(directionX); 
             //Debug.Log(directionY);
         }
