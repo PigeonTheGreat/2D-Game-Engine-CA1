@@ -5,12 +5,12 @@ using UnityEngine;
 public class WaypointMover : MonoBehaviour
 {
 
-    public Transform waypointParent;
+    public Transform waypointParent; //Reads through the parent at everything inside
     public float moveSpeed = 3f;
     public float waitTime = 2f;
     public bool loopWaypoints = true;
 
-    private Transform[] waypoints;
+    private Transform[] waypoints; //Accessing the children inside the parent object
     private int currentWaypointIndex;
     private Animator animator;
     private int directionX;
@@ -21,7 +21,7 @@ public class WaypointMover : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        waypoints = new Transform[waypointParent.childCount];
+        waypoints = new Transform[waypointParent.childCount]; //Making the arrayList the same size as all the wapoints in the parent
         animator = GetComponent<Animator>();
 
         for(int i = 0; i < waypointParent.childCount; i++)
@@ -56,12 +56,12 @@ public class WaypointMover : MonoBehaviour
 
     void MoveToWaypoint()
     {
-        Transform target = waypoints[currentWaypointIndex]; //Moving to each waypoint
-        transform.position = Vector2.MoveTowards(transform.position, target.position, moveSpeed * Time.deltaTime);
+        Transform target = waypoints[currentWaypointIndex]; //Moving to the target waypoint
+        transform.position = Vector2.MoveTowards(transform.position, target.position, moveSpeed * Time.deltaTime); //moving to the waypoints at a desired speed
 
-        if(Vector2.Distance(transform.position, target.position) < 0.1f) //if the npc is within the Waypoint
+        if(Vector2.Distance(transform.position, target.position) < 0.1f) //if the npc is within close range of the Waypoint
         {
-            StartCoroutine(WaitAtWaypoint());
+            StartCoroutine(WaitAtWaypoint()); //go idle at the waypoint
         }
 
     }
@@ -69,7 +69,7 @@ public class WaypointMover : MonoBehaviour
     IEnumerator WaitAtWaypoint()
     {
         
-        yield return new WaitForSeconds(waitTime);
+        yield return new WaitForSeconds(waitTime); //setting the wait time for the Coroutine, pauses the action
 
         //If looping is enabled: increment currentWaypointndex and wrap around if needed.
         //If not looping: increment currentWaypointIndex but don't exceed last waypoint;

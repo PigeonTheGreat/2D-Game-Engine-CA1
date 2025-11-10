@@ -71,8 +71,8 @@ public class Player : MonoBehaviour
             GameObject projectile = Instantiate(projectilePrefab, rb.position, Quaternion.identity);
             Projectile prX = projectile.GetComponent<Projectile>();
             prX.Launch(new Vector2(animator.GetInteger("DirectionX"), 0), 300);
-            Projectile prY = projectile.GetComponent<Projectile>();
-            prY.Launch(new Vector2(animator.GetInteger("DirectionY"), 0), 300);
+            //Projectile prY = projectile.GetComponent<Projectile>();
+            //prY.Launch(new Vector2(animator.GetInteger("DirectionY"), 0), 300);
         }
 
         if (isPowerUp)
