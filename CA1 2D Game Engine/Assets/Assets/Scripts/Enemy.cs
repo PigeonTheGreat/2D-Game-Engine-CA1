@@ -16,7 +16,7 @@ public class Enemy : MonoBehaviour
     [SerializeField] float fireTimer = 0.5f;
     float fireCountdown = 0;
     [SerializeField] GameObject projectilePrefab;
-    private AudioSource audio;
+    private AudioSource _audio;
     public AudioClip deathSound;
     public AudioClip hitSound;
 
@@ -24,7 +24,7 @@ public class Enemy : MonoBehaviour
     void Start()
     {
         _animator = GetComponent<Animator>();
-        audio = GetComponent<AudioSource>();
+        _audio = GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
@@ -55,7 +55,7 @@ public class Enemy : MonoBehaviour
         else
         {
             dieTime -= Time.deltaTime;
-            audio.PlayOneShot(deathSound);
+            _audio.PlayOneShot(deathSound);
             if (dieTime < 0)
             {
                 Destroy(this.gameObject);
@@ -67,7 +67,7 @@ public class Enemy : MonoBehaviour
     {
         if(collision.tag == "PlayerProjectile")
         {
-            audio.PlayOneShot(hitSound);
+            _audio.PlayOneShot(hitSound);
             health--;
             //Debug.Log(health);
             
